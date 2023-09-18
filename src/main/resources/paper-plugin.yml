@@ -1,4 +1,10 @@
-name: SleepExcept
-version: '1.0.0'
-main: com.kevinadhaikal.sleepexcept
-api-version: '1.20'
+name: SleepAFK
+version: 1.0.0
+main: com.kevinadhaikal.SleepAFK
+commands:
+  setafk:
+    description: Set to AFK, and it wont affect sleep.
+    usage: /setafk
+  unafk:
+    description: Set to un AFK, and it will affect sleep.
+    usage: /unafk
